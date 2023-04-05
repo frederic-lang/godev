@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fredlnl.github.io/godev/blog</id>
-    <title>My Site Blog</title>
+    <title>Fredlnl Blog</title>
     <updated>2023-04-04T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fredlnl.github.io/godev/blog"/>
-    <subtitle>My Site Blog</subtitle>
+    <subtitle>Fredlnl Blog</subtitle>
     <icon>https://fredlnl.github.io/godev/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Greetings!]]></title>
