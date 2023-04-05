@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
+  title: "Fredlnl",
   tagline: "Dinosaurs are cool",
   favicon: "img/favicon.ico",
 
@@ -64,10 +64,10 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "My Site",
+        title: "Fredlnl",
         logo: {
           alt: "My Site Logo",
-          src: "img/logo.svg",
+          src: "img/favicon-32x32.png",
         },
         items: [
           {
@@ -101,15 +101,15 @@ const config = {
             items: [
               {
                 label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                href: "https://stackoverflow.com/users/4850582/godev",
               },
               {
                 label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                href: "https://twitter.com/Fredestrik",
+              },
+              {
+                label: "GitHub",
+                href: "https://github.com/fredlnl",
               },
             ],
           },
@@ -120,14 +120,10 @@ const config = {
                 label: "Blog",
                 to: "/blog",
               },
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
-              },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Fredlnl. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
