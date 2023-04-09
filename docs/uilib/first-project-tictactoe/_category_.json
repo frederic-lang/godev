@@ -1,0 +1,8 @@
+{
+  "label": "First project - Tic Tac Toe",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Implement a Tic Tac Toe in react in a few steps"
+  }
+}
