@@ -5,17 +5,23 @@ sidebar_position: 3
 
 # Hello
 
-Welcome to the **How To Make workflow**!
+![Viking shield](/img/vikings-shield.jpg)
 
-Criteria of Hotom :
+Welcome to the **Jommo workflow**!
+
+Criteria of Jommo :
 
 - KISS : keep it simple as stupid
 - DRY : don't repeat yourselve
 - Progressive : accessible to anyone, with bare minimum knowdlege in JS
 - General : use most prevailing tools, to make it more accessible
 
-Purposes of Hotom :
+Purposes of Jommo :
 
 - make development of libraries accessible
-- let Hotom users share their knowledge
 - be up to date to best practices
+
+Advantages of Jommo compared to other workflows :
+
+- Easy to implement, all steps to recreate the skeleton repository are documented
+- No need to implement monorepository by leveraging rollup & vite. As monorepository adds extra-complexity, it participates into make the workflow quick.

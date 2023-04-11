@@ -1,5 +1,5 @@
 ---
-sidebar_position:2
+sidebar_position: 2
 ---
 
 # Set up your repository
@@ -38,4 +38,37 @@ You can copy the ISC [license](https://en.wikipedia.org/wiki/ISC_license) as a L
 
 ```bash
 pnpm i -D rollup
+```
+
+4. set up the Vite app
+
+```bash
+mkdir app
+cd app
+pnpm create vite@latest vite-project --template react
+pnpm i
+```
+
+5. define Vite config
+
+in order to import the library into your app, you need to add an _alias_ field to your `defineConfig`.
+
+```js
+//vite.config.js
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import { resolve } from "path";
+
+// https://vitejs.dev/config/
+export default defineConfig({
+  resolve: {
+    alias: [
+      {
+        find: "lib",
+        replacement: resolve(__dirname, "../", "lib"),
+      },
+    ],
+  },
+  plugins: [react()],
+});
 ```
