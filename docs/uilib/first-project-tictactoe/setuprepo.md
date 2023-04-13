@@ -72,3 +72,25 @@ export default defineConfig({
   plugins: [react()],
 });
 ```
+
+6. _optional_ Add tests to your lib project
+
+Add vitest as a dependency of your lib package
+
+```bash
+cd lib
+pnpm add vitest
+```
+
+write a first test for a example sum function in your index.jsx
+
+```js
+import { expect, it, describe } from "vitest";
+import { sum } from "./index";
+
+describe("sum", () => {
+  it("adds 1 + 2 to equal 3", () => {
+    expect(sum(1, 2)).toBe(3);
+  });
+});
+```
